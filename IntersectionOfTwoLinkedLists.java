@@ -10,6 +10,7 @@ public class Solution {
         
        
         while (pA != pB) {
+            // Ternary 
             
             pA = (pA == null) ? headB : pA.next;
             pB = (pB == null) ? headA : pB.next;
